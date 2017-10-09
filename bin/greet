@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
   name = gets.strip
+  def greeting(name)
+    puts "Welcome #{name}"
+  end 
 
 
 
